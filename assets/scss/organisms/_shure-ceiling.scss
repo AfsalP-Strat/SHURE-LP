@@ -1,0 +1,38 @@
+.slp-ceiling {
+    padding: 32px 0;
+    background-color: #333333;
+
+    &__out {
+        display: flex;
+        flex-wrap: wrap;
+        margin: 0 -8px;
+    }
+
+    &__sec {
+        width: calc(33.3% - 16px);
+        margin: 0 8px;
+        position: relative;
+        img {
+            width: 100%;
+            height: auto;
+        }
+
+        &-in {
+            position: absolute;
+            left: 0;
+            top: 0;
+        }
+
+        h1 {
+            color: var(--clr-green);
+            -webkit-text-fill-color: white;
+            -webkit-text-stroke-width: 1px;
+            -webkit-text-stroke-color :var(--clr-green);
+            font-size: 32px;
+            text-align: center;
+            position: absolute;
+
+        }
+    }
+}
+
