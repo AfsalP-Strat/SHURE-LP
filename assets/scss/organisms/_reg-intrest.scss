@@ -1,0 +1,34 @@
+.reg-your-interest{
+    padding: 30px 185px;
+    &__tittle{
+        h3{
+            color: var(--clr-black);
+            text-align: center;
+        }
+    }
+    &__inputs{
+        display: flex;
+        flex-direction: column;
+        gap: 20px;
+    }
+    &__button{
+        display: flex;
+        justify-content: center;
+        padding-top: 10px;
+        button{
+            width: 300px;
+        }
+    }
+}
+
+@include mobile{
+    .reg-your-interest{
+        padding: 20px 10px;
+    }
+}
+
+@include tablet{
+    .reg-your-interest{
+        padding: 20px 10px;
+    }
+}
