@@ -10,17 +10,20 @@
 
     .slp-title {
         text-align: center;
-        margin-bottom: -50px;
+        margin-bottom: -10px;
     }
 
     &__sec {
         width: calc(33.3% - 16px);
         margin: 0 8px;
         position: relative;
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
         img {
-            margin-bottom: -70px;
-            width: 100%;
+            width: 80%;
             height: auto;
+            margin: 0 auto -10px auto;
         }
 
         &-in {
@@ -42,6 +45,7 @@
                 font-weight: 400;
                 padding-bottom: 16px;
                 text-align: center;
+                height: 70px;
             }
         }
     }
@@ -50,9 +54,6 @@
 @include tablet {
     .slp-ceiling {
         &__sec {
-            img {
-                margin-bottom: -40px;
-            }
             &-in {
                 h1 {
                     font-size: 40px;
