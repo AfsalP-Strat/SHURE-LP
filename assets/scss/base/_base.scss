@@ -2,6 +2,14 @@
 html {
   scroll-behavior: smooth;
 }
+@font-face {
+  font-family: 'Ostrich Proper Inline Open';
+  src: url('/assets/fonts/OstrichProperInline-Open.woff') format('woff2'),
+      url('/assets/fonts/OstrichProperInline-Open.woff') format('woff');
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
 
 html,
 body {
