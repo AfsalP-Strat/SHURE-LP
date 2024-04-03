@@ -37,7 +37,7 @@
         height: 24px;
         border-radius: 50%;
         border: 2px solid #7C7B7B;
-        box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.2);
+        // box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.2);
         transform: translateZ(-25px);
         transition: all 0.3s ease-in-out;
 
@@ -50,7 +50,6 @@
             left: 5px;
             border-radius: 50%;
             background-color: #7C7B7B;
-            box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.5);
             opacity: 1;
             transition: all 0.3s ease-in-out;
         }
