@@ -11,8 +11,12 @@
     <link rel="stylesheet" href="../assets/css/slick-theme.css">
     <link rel="stylesheet" href="../assets/css/bootstrap.min.css">
     <link rel="stylesheet" href="../assets/css/style.css" />
+    <script src="https://www.google.com/recaptcha/api.js" async defer></script>
+    <link rel="icon" href="../assets/images/favicon.png" />
+    <meta name="SHURE"
+      content="Introducing the ultimate audio solution! Say goodbye to uneven sound with crystal-clear audio throughout. Plus, trade-in your old gear for discounts on select new Shure MXA products. Upgrade and save today!">
     <!-- styles -->
-    <title>Document</title>
+    <title>MXA Trade in Program</title>
   </head>
 
   <body>
@@ -32,22 +36,23 @@
       <div class="reg-int-form">
         <h3 class="slp-title">REGISTER YOUR INTEREST</h3>
 
-        <form>
+        <form action="?" method="POST">
 
           <div class="slp-input">
             <label for>First Name</label>
             <input type="text">
           </div>
+          <span class="d-none">Please enter a correct name</span>
           <div class="slp-input">
             <label for>Last Name</label>
             <input type="text">
           </div>
           <div class="slp-input">
-            <label for>Work email</label>
+            <label for>Work Email</label>
             <input type="text">
           </div>
           <div class="slp-input">
-            <label for>Phone number</label>
+            <label for>Phone Number</label>
             <input type="text">
           </div>
           <div class="slp-input">
@@ -55,7 +60,7 @@
             <input type="text">
           </div>
           <div class="slp-input">
-            <label for>Job title</label>
+            <label for>Job Title</label>
             <input type="text">
           </div>
           <div class="slp-input">
@@ -67,7 +72,7 @@
             <input type="text">
           </div>
           <div class="slp-input">
-            <label for>Zip code</label>
+            <label for>Zip Code</label>
             <input type="text">
           </div>
           <div class="slp-input">
@@ -135,9 +140,12 @@
           <p>Please allow 5-7 working days for our representative to get back to
             you.</p>
 
+            <!-- <div class="g-recaptcha" data-sitekey="your_site_key"></div> -->
+
           <div class="btn-outer">
-            <button class="slp-fbtn">SUBMIT</button>
+            <button class="slp-fbtn" type="submit">SUBMIT</button>
           </div>
+
 
         </form>
 
@@ -262,6 +270,12 @@
     <script src="../assets/js/slick.min.js"></script>
     <script src="../assets/js/bootstrap.bundle.min.js"></script>
     <script src="../assets/js/script.js"></script>
+    <script src="https://www.google.com/recaptcha/api.js?onload=onloadCallback&render=explicit" async defer></script>
+    <script type="text/javascript">
+      var onloadCallback = function () {
+        // alert("grecaptcha is ready!");
+      };
+    </script>
     <!-- scripts -->
   </body>
 

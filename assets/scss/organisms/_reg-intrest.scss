@@ -2,6 +2,14 @@
     padding: 30px;
     width: 70%;
     margin: 0 auto;
+    form {
+        span {
+            color: #cc0000;
+            font-size: 14px;
+            font-weight: 500;
+            padding-bottom: 8px;
+        }
+    }
     &__tittle{
         h3{
             color: var(--clr-black);
