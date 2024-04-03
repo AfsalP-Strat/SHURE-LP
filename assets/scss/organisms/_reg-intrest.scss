@@ -1,5 +1,7 @@
 .reg-your-interest{
-    padding: 30px 185px;
+    padding: 30px;
+    width: 70%;
+    margin: 0 auto;
     &__tittle{
         h3{
             color: var(--clr-black);
@@ -23,12 +25,19 @@
 
 @include mobile{
     .reg-your-interest{
+        width: 100%;
         padding: 20px 10px;
+        &__button{
+            button{
+                width: 100%;
+            }
+        }
     }
 }
 
 @include tablet{
     .reg-your-interest{
+        width: 90%;
         padding: 20px 10px;
     }
 }
