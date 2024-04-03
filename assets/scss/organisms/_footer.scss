@@ -73,17 +73,27 @@
     &__newsletter {
         display: flex;
         justify-content: center;
-        align-items: center;
         padding-bottom: 32px;
-        p {
-            font-size: 14px;
+        
+        a {
             color: var(--clr-white);
-            font-weight: 600;
-            margin-right: 16px;
-        }
-        img {
-            width: 25px;
-            height: auto;
+            display: inline-flex;
+            align-items: center;
+            p {
+                font-size: 14px;
+                color: var(--clr-white);
+                font-weight: 600;
+                margin-right: 16px;
+            }
+            img {
+                width: 25px;
+                height: auto;
+            }
+            &:hover {
+                p {
+                    text-decoration: underline;
+                }
+            }
         }
     }
 

@@ -1,0 +1,15 @@
+.slp-input {
+    input {
+        display: block;
+        border: 1px solid #7C7B7B;
+        width: 100%;
+        color: var(--clr-black);
+        font-size: 14px;
+        padding: 8px 16px;
+    }
+    label {
+        color: var(--clr-black);
+        font-size: 14px;
+        padding-bottom: 8px;
+    }
+}
