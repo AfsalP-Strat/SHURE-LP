@@ -4,7 +4,7 @@
     position: relative;
     align-items: center;
     color: var(--clr-black);
-    font-size: 18px;
+    font-size: 14px;
 
     &__outer {
         display: flex;
@@ -52,6 +52,22 @@
             background-color: #7C7B7B;
             opacity: 1;
             transition: all 0.3s ease-in-out;
+        }
+    }
+}
+
+/* / Media queries / */
+
+@include mobile {
+    .slp-radio {
+        width: 100% !important;
+        margin: 10px 0;
+        &__outer {
+            flex-direction: column;
+            
+        }
+        .radio{
+            margin-right: 16px;
         }
     }
 }
