@@ -1,0 +1,21 @@
+.slp-menu-list {
+   background-color: var(--clr-white);
+   border-top: 4px solid #003366;
+   background-color: #ffffff;
+   ul {
+    li {
+        
+        border-bottom: 1px solid rgba(239, 228, 228, 0.4);
+        a {
+            padding: 8px 16px;
+            color: #777;
+            display: block;
+            font-size: 14px;
+            &:hover {
+                background-color: #F4F4F4;
+                color: #777;
+            }
+        }
+    }
+   }
+}
