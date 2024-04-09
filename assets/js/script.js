@@ -1,7 +1,9 @@
 
-document.querySelector(".slp-input__num").addEventListener("keyup", function () {
-    document.querySelector(".reg-int-form__hide").style.display = "block";
-});
+if (document.querySelector(".slp-input__num")) {
+    document.querySelector(".slp-input__num").addEventListener("keyup", function () {
+        document.querySelector(".reg-int-form__hide").style.display = "block";
+    });
+}
 
 //menu
 const arrOws = document.querySelectorAll(".mob-accordion");
@@ -12,6 +14,6 @@ arrOws.forEach((item, index) => {
     item.addEventListener("click", () => {
         List[index].classList.toggle("list-show");
     });
-    
+
 });
 
