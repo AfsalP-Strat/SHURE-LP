@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="24px" height="18px" viewBox="0 0 24 18" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <title>Slice 1</title>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Group" fill="#B2FF33" fill-rule="nonzero">
+            <path d="M19.615,0.184125191 C16.011,-0.0618748091 7.984,-0.0608748091 4.385,0.184125191 C0.488,0.450125191 0.029,2.80412519 0,9.00012519 C0.029,15.1851252 0.484,17.5501252 4.385,17.8161252 C7.985,18.0611252 16.011,18.0621252 19.615,17.8161252 C23.512,17.5501252 23.971,15.1961252 24,9.00012519 C23.971,2.81512519 23.516,0.451125191 19.615,0.184125191 Z M9,13.0001252 L9,5.00012519 L17,8.99312519 L9,13.0001252 Z" id="Shape"></path>
+        </g>
+    </g>
+</svg>

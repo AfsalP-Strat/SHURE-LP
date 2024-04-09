@@ -1,0 +1,54 @@
+.slp-pageheader {
+    &__top {
+        background-color: var(--clr-black);
+        display: flex;
+        justify-content: flex-start;
+        padding: 16px;
+    }
+
+    &__logo {
+        max-width: 130px;
+
+        img {
+            width: 100%;
+            height: auto;
+            display: block;
+        }
+    }
+
+    &__breadcrumb {
+        background-color: var(--clr-gray);
+        display: flex;
+        justify-content: flex-start;
+        padding: 16px;
+        color: #fff;
+        font-weight: 500;
+        font-size: 18px;
+    }
+}
+
+@include tablet {
+    .slp-pageheader {
+
+        &__logo {
+            max-width: 120px;
+        }
+
+        &__breadcrumb {
+            font-size: 16px;
+        }
+    }
+}
+
+@include mobile {
+    .slp-pageheader {
+
+        &__logo {
+            max-width: 110px;
+        }
+
+        &__breadcrumb {
+            font-size: 14px;
+        }
+    }
+}

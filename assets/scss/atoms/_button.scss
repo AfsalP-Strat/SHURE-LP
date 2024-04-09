@@ -1,0 +1,27 @@
+.slp-button {
+
+    color: var(--clr-white);
+    font-size: 16px;
+    font-weight: 600;
+    position: relative;
+    display: inline-flex;
+
+    &::after {
+        content: "";
+        position: absolute;
+        left: 0;
+        bottom: -6px;
+        background-color: var(--clr-green);
+        height: 3px;
+        width: 20%;
+        transition: 0.5s;
+    }
+    
+    &:hover {
+        color: var(--clr-white);
+        &::after {
+            width: 100%;
+            transition: 0.5s;
+        }
+    }
+}

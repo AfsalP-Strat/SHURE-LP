@@ -8,9 +8,22 @@
 @import "./base/dev";
 
 // atoms
-@import "atoms/titile";
+@import "atoms/button";
+@import "atoms/title";
+@import "atoms/input";
+@import "atoms/form-cta";
+@import "atoms/radio";
 // molecule
 
 // organisms
 @import "organisms/footer";
+@import "organisms/banner";
+@import "organisms/program-works";
+@import "organisms/trade-program";
+@import "organisms/footer";
+@import "organisms/shure-ceiling";
+@import "organisms/ready-sec";
+@import "organisms/page-header";
+@import "organisms/reg-intrest";
+@import "organisms/register-interest2";
 // pages

@@ -1,0 +1,51 @@
+.reg-your-interest{
+    padding: 30px;
+    width: 70%;
+    margin: 0 auto;
+    form {
+        span {
+            color: #cc0000;
+            font-size: 14px;
+            font-weight: 500;
+            padding-bottom: 8px;
+        }
+    }
+    &__tittle{
+        h3{
+            color: var(--clr-black);
+            text-align: center;
+        }
+    }
+    &__inputs{
+        display: flex;
+        flex-direction: column;
+        gap: 20px;
+    }
+    &__button{
+        display: flex;
+        justify-content: center;
+        padding-top: 10px;
+        button{
+            width: 300px;
+        }
+    }
+}
+
+@include mobile{
+    .reg-your-interest{
+        width: 100%;
+        padding: 20px 10px;
+        &__button{
+            button{
+                width: 100%;
+            }
+        }
+    }
+}
+
+@include tablet{
+    .reg-your-interest{
+        width: 90%;
+        padding: 20px 10px;
+    }
+}

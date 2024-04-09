@@ -1,0 +1,20 @@
+.slp-fbtn {
+    background-color: var(--clr-green);
+    padding: 12px 16px;
+    width: 100%;
+    border-top-left-radius: 8px;
+    border-bottom-right-radius: 8px;
+    color: var(--clr-black);
+    font-size: 16px;
+    font-weight: 500;
+    border: 1px solid #2c61e6;
+    transition: 0.3s;
+
+    &:hover {
+        // border: 1px solid var(--clr-green);
+        background-color: var(--clr-black);
+        color: var(--clr-green);
+        transition: 0.3s;
+        // opacity: 0.8;
+    }
+}
