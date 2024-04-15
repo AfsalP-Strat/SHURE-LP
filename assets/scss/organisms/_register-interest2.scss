@@ -153,9 +153,20 @@
     }
 
     &__content-box {
-        width: 350px;
+        // width: 350px;
         height: 150px;
         overflow-y: scroll;
+        &::-webkit-scrollbar {
+            width: 3px;
+        }
+    
+        &::-webkit-scrollbar-track {
+            box-shadow: inset 0 0 6px rgba(216, 214, 214, 0.3);
+        }
+    
+        &::-webkit-scrollbar-thumb {
+            background-color: darkgrey;
+        }
         &-txt {
             font-size: 14px;
             color: #000;
