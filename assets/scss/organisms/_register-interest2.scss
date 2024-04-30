@@ -215,9 +215,9 @@
             padding-bottom: 8px;
         }
 
-        input {
-            margin-bottom: 15px;
-        }
+        // input {
+        //     margin-bottom: 15px;
+        // }
 
         .radio-outer {
             margin: 30px 0;
@@ -230,10 +230,15 @@
         .btn-outer {
             display: flex;
             justify-content: center;
+            flex-direction: column;
             align-items: center;
             padding-bottom: 75px;
             padding-top: 10px;
             margin-top: 24px;
+
+            span {
+                margin-top: 6px;
+            }
 
             button {
                 width: 300px;
